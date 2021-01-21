@@ -13,4 +13,10 @@ public class Controller {
 	public String getAppHealth() {
 		return "App is up and running";
 	}
+	
+	@RequestMapping("/fetchMessage")
+	@ResponseStatus(HttpStatus.OK)
+	public String fetchMessage() {
+		return "Hello, just a sample.";
+	}
 }
