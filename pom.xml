@@ -39,4 +39,5 @@
 		</plugins>
 		<finalName>spring-docker-awsecs-demo</finalName>
 	</build>
+	
 </project>
